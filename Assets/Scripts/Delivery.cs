@@ -14,9 +14,9 @@ public class Delivery : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("Ouch!");
-    }
+    // void OnCollisionEnter2D(Collision2D other) {
+    //     Debug.Log("Ouch!");
+    // }
 
      void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Package"){
